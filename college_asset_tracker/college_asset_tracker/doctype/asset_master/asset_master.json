@@ -1,0 +1,102 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-10-04 19:39:34.953981",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "asset_name",
+  "asset_id",
+  "asset_group",
+  "asset_date",
+  "life_of_asset",
+  "expiry_date",
+  "warranty_claim_card",
+  "warranty_contact_person"
+ ],
+ "fields": [
+  {
+   "description": "N/A",
+   "fieldname": "asset_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Asset Name",
+   "options": "N/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "asset_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Asset ID / Serial No.",
+   "options": "N/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "asset_group",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Asset Group",
+   "options": "Asset Group",
+   "reqd": 1
+  },
+  {
+   "fieldname": "asset_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Asset Date",
+   "options": "N/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "life_of_asset",
+   "fieldtype": "Int",
+   "label": "Life of Asset",
+   "options": "N/A"
+  },
+  {
+   "fieldname": "expiry_date",
+   "fieldtype": "Date",
+   "label": "Expiry Date",
+   "options": "N/A"
+  },
+  {
+   "fieldname": "warranty_claim_card",
+   "fieldtype": "Data",
+   "label": "Warranty Claim Card",
+   "options": "N/A"
+  },
+  {
+   "fieldname": "warranty_contact_person",
+   "fieldtype": "Data",
+   "label": "Warranty Contact Person",
+   "options": "N/A"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-04 19:39:34.953981",
+ "modified_by": "Administrator",
+ "module": "College Asset Tracker",
+ "name": "Asset Master",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

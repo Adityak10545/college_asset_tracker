@@ -213,3 +213,9 @@ app_license = "MIT"
 # auth_hooks = [
 # 	"college_asset_tracker.auth.validate"
 # ]
+
+doc_events = {
+    "Asset Transfer": {
+        "on_submit": "college_asset_tracker.asset_transfer.AssetTransfer.on_submit"
+    }
+}
